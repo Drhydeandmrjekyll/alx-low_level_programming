@@ -3,7 +3,8 @@
 /**
  * main - prints exactly and that piece of art is useful
  *
- * return always 0(success)
+ * Description: print a quote using write function
+ * return always 1(success)
  */
 int  main(void)
 {
