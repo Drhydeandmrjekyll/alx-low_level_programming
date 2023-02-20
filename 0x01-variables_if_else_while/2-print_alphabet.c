@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main- entry point
- * description- use putchar to print lowercase alphabets
+ * main - Entry point
  *
- * return:Always 0 (success)
- */
+ * Description: print all alphabet letters
+ *
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
