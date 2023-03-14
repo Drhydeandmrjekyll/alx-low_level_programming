@@ -3,9 +3,9 @@
 
 /**
  * main- Program that multiples two arguements passed into it
- * 
+ *
  * @argc: The number of arguement count
- * 
+ *
  * @argv: The number of string arguement in array pointer
  *
  * Return: Always 0 (success)
