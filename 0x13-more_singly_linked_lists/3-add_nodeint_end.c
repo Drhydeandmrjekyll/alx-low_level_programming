@@ -5,7 +5,7 @@
  *                   listint_t list.
  * @head: A pointer to the address of the head
  *        of listint_t list.
- * @n: Integer if the new node 
+ * @n: Integer if the new node
  *
  * Return: If the function fsils - NULL;
  *         Else - return the address of new element.
@@ -17,14 +17,14 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
-		return(NULL);
+		return (NULL);
 
 	new->n = n;
 	new->next = NULL;
 
 	if (*head == NULL)
 		*head = new;
-	
+
 	else
 	{
 		last = *head;
